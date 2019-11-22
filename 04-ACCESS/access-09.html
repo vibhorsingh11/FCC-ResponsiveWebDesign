@@ -1,0 +1,56 @@
+<!-- HTML5's audio element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
+
+The audio tag supports the controls attribute. This shows the browser default play, pause, and other controls, and supports keyboard functionality. This is a boolean attribute, meaning it doesn't need a value, its presence on the tag turns the setting on.
+
+Here's an example:
+
+<audio id="meowClip" controls>
+  <source src="audio/meow.mp3" type="audio/mpeg" />
+  <source src="audio/meow.ogg" type="audio/ogg" />
+</audio>
+Note: Multimedia content usually has both visual and auditory components. It needs synchronized captions and a transcript so users with visual and/or auditory impairments can access it. Generally, a web developer is not responsible for creating the captions or transcript, but needs to know to include them.
+
+Time to take a break from Camper Cat and meet fellow camper Zersiax (@zersiax), a champion of accessibility and a screen reader user. To hear a clip of his screen reader in action, add an audio element after the p. Include the controls attribute. Then place a source tag inside the audio tags with the src attribute set to "https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" and type attribute set to "audio/mpeg".
+
+Note: The audio clip may sound fast and be difficult to understand, but that is a normal speed for screen reader users. -->
+
+<body>
+  <header>
+    <h1>Training</h1>
+    <nav>
+      <ul>
+        <li><a href="#stealth">Stealth &amp; Agility</a></li>
+        <li><a href="#combat">Combat</a></li>
+        <li><a href="#weapons">Weapons</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+
+      <!-- Add your code below this line -->
+      <figure>  
+  <figcaption>
+    Breakdown per week of time to spend training in stealth, combat, and weapons.
+  </figcaption>
+</figure>
+      
+    </section>
+    <section id="stealth">
+      <h2>Stealth &amp; Agility Training</h2>
+      <article><h3>Climb foliage quickly using a minimum spanning tree approach</h3></article>
+      <article><h3>No training is NP-complete without parkour</h3></article>
+    </section>
+    <section id="combat">
+      <h2>Combat Training</h2>
+      <article><h3>Dispatch multiple enemies with multithreaded tactics</h3></article>
+      <article><h3>Goodbye world: 5 proven ways to knock out an opponent</h3></article>
+    </section>
+    <section id="weapons">
+      <h2>Weapons Training</h2>
+      <article><h3>Swords: the best tool to literally divide and conquer</h3></article>
+      <article><h3>Breadth-first or depth-first in multi-weapon training?</h3></article>
+    </section>
+  </main>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
